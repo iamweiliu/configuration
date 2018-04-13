@@ -4,7 +4,7 @@ if ! [ -e $HOME/usr/bin/zsh ]; then
     if ! [ -e $HOME/usr/bin ]; then
       mkdir -p $HOME/usr/bin
     fi
-    cd $HOME/Download
+    cd $HOME/Downloads
     # ----------- Download zsh ---------------
     if ! [ -e zsh.tar.gz ]
     then
