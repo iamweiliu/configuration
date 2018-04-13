@@ -15,9 +15,8 @@ if ! [ -e $HOME/usr/bin/zsh ]; then
     if ! [ -e zsh ]
     then
         mkdir zsh
-    else
-        tar -xvzf zsh.tar.gz -C zsh --strip-components 1
     fi
+    tar -xvzf zsh.tar.gz -C zsh --strip-components 1
     cd zsh
     ./configure --prefix=$HOME/usr/
     make
